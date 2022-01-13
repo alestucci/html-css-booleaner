@@ -69,6 +69,18 @@ th {
     text-align: left;
 }
 
+th:nth-child(1) {
+    width: 25%;
+}
+
+th:nth-child(2) {
+    width: 25%;
+}
+
+th:nth-child(3) {
+    width: 50%;
+}
+
 .link {
     height: 160px;
     width: 210px;
@@ -79,4 +91,3 @@ th {
     padding: 10px 5px;
     margin-bottom: 10px;
 }
-
