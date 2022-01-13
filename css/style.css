@@ -1,8 +1,48 @@
-.autore
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
-.data
+header {
+    height: 100px;
+    background-color: #4DA0FF;
+    background-image: url("../img/pattern.png");
+    background-size: 400px;
+    background-repeat: repeat-x;
+    margin-bottom: 0px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
 
-.info-foto
+}
+.autore {
+    color: #858585;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
-mark
+a {
+    text-decoration: none;
+    color: #1FA8E5;
+}
+
+.data {
+    color: #858585;
+    font-size:12px;
+    margin-top: 0px;
+
+}
+
+.info-foto {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #858585;
+    font-size: 18px;
+    font-weight: 800;
+}
 
