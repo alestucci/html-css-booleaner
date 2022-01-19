@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     position: relative;
     height: 100px;
@@ -8,15 +14,29 @@ header {
     background-position: center top;
 }
 
-#logo {
-    position: absolute;
-    bottom: 10pt;
-    left: 5pt;
+.logo-cntr {
+    width: 1100px;
+    margin: 0 auto;
 }
+
+#logo {
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
 img.header {
     position: relative;
     bottom: 0px;
     left: 0px;
+}
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 1em auto;
 }
 
 h1 {
@@ -40,6 +60,7 @@ a.profilo {
     color: #858585;
     font-size:12px;
     margin-top: 0px;
+    padding-bottom: 20px;
 }
 
 .info-foto {
@@ -53,7 +74,12 @@ h2 {
     font-weight: 800;
 }
 
+ul {
+    margin: 1em 1em;
+}
+
 table {
+    margin: 1em auto;
     border-collapse: collapse;
     border: 0px;
 }
