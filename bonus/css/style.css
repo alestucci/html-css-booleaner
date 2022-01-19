@@ -1,0 +1,93 @@
+header {
+    position: relative;
+    height: 100px;
+    background-color: #4DA0FF;
+    background-image: url("../img/pattern.png");
+    background-size: 400px;
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+
+#logo {
+    position: absolute;
+    bottom: 10pt;
+    left: 5pt;
+}
+img.header {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.autore {
+    color: #858585;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a.profilo {
+    text-decoration: none;
+    color: #1FA8E5;
+}
+
+.data {
+    color: #858585;
+    font-size:12px;
+    margin-top: 0px;
+}
+
+.info-foto {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #858585;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0px;
+}
+
+tr:nth-child(odd) {
+    background-color: #B1E5F2;
+}
+
+th {
+    background-color: #1FA8E5;
+    color: white;
+    font-weight: 900;
+    text-align: left;
+}
+
+th:nth-child(1) {
+    width: 25%;
+}
+
+th:nth-child(2) {
+    width: 25%;
+}
+
+th:nth-child(3) {
+    width: 50%;
+}
+
+.link {
+    height: 160px;
+    width: 210px;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
